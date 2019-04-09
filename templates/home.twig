@@ -1,0 +1,11 @@
+{% extends 'layouts/app.twig' %}
+
+{% block content %}
+    <h1>Slim</h1>
+    <div>a microframework for PHP</div>
+{% if name %}
+    <h2>Hello {{ name }}!</h2>
+{% else %}
+    <p>Try <a href="http://www.slimframework.com">SlimFramework</a></p>
+{% endif %}
+{% endblock %}
